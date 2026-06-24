@@ -14,10 +14,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 </head>
 
 <body>
+    <div id="progress-bar"></div>
 
 <!-- Navbar -->
 
 <nav class="navbar">
+
+    <i class="fa-solid fa-bars menu-btn"></i>
 
     <div class="logo">
         <h1>Medium</h1>
@@ -27,11 +30,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <i class="fa-solid fa-magnifying-glass"></i>
     <input type="text" placeholder="Search">
 </div>
-
     <div class="nav-right">
         <button class="app-btn">Get App</button>
-        <i class="fa-regular fa-pen-to-square"></i>
+       <a href="write.html">
+    <i class="fa-regular fa-pen-to-square"></i>
+</a>
         <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-moon" id="darkModeBtn"></i>
         <img src="my  photo.png" class="profile">
     </div>
 
@@ -41,7 +46,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <!-- Left Sidebar -->
 
-<div class="sidebar">
+<div class="sidebar" id="sidebar">
 
 <ul>
 
@@ -85,9 +90,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <div class="post-content">
 
-<div class="author">
+<div class="author hover-card-parent">
+
     <img src="https://i.pravatar.cc/40" class="author-logo">
+
     <span>In Code Like A Girl by Shruti Mangawa · Dec 11</span>
+
+    <div class="hover-card">
+
+        <h4>Code Like A Girl</h4>
+
+        <p>Frontend & Technology Publication</p>
+         <p>15K Followers · 320 Stories</p>
+
+        <button class="follow-btn">Follow</button>
+
+    </div>
+
 </div>
 
 <h2>Why Reading More Books Wasn't Making Me Smarter</h2>
@@ -99,14 +118,17 @@ I Realized I Had Been Reading Wrong My Entire Life
 <div class="post-footer">
 
     <div class="left-icons">
-        <span><i class="fa-solid fa-star"></i> 17.7K</span>
+        <span class="like-btn">
+    <i class="fa-solid fa-star"></i>
+    <span class="count">17700</span>
+</span> 
         <span><i class="fa-regular fa-comment"></i> 847</span>
         <span><i class="fa-solid fa-retweet"></i> 189</span>
     </div>
 
     <div class="right-icons">
         <i class="fa-regular fa-message"></i>
-        <i class="fa-regular fa-bookmark"></i>
+       <i class="fa-regular fa-bookmark bookmark"></i>
         <i class="fa-solid fa-ellipsis"></i>
     </div>
 
@@ -122,9 +144,23 @@ I Realized I Had Been Reading Wrong My Entire Life
 
 <div class="post-content">
 
-<div class="author">
+<div class="author hover-card-parent">
+
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" class="author-logo">
+
     <span>In Book Haven by Sarah Mitchell · Dec 11, 2025</span>
+
+    <div class="hover-card">
+
+        <h4>Book Haven</h4>
+
+        <p>Books, Reading & Self Improvement Publication</p>
+         <p>17K Followers · 322 Stories</p>
+
+        <button class="follow-btn">Follow</button>
+
+    </div>
+
 </div>
 
 <h2>Why Reading More Books Wasn't Making Me Smarter</h2>
@@ -143,7 +179,7 @@ Technology is changing rapidly...
 
     <div class="right-icons">
         <i class="fa-regular fa-message"></i>
-        <i class="fa-regular fa-bookmark"></i>
+        <i class="fa-regular fa-bookmark bookmark"></i>
         <i class="fa-solid fa-ellipsis"></i>
     </div>
 
@@ -160,9 +196,23 @@ Technology is changing rapidly...
 
 <div class="post-content">
 
-<div class="author">
+<div class="author hover-card-parent">
+
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" class="author-logo">
+
     <span>In Tech Insights by Marina Wyss · Feb 23</span>
+
+    <div class="hover-card">
+
+        <h4>Tech Insights</h4>
+
+        <p>Technology, AI & Software Engineering Publication</p>
+         <p>20K Followers · 300 Stories</p>
+
+        <button class="follow-btn">Follow</button>
+
+    </div>
+
 </div>
 
 <h2>Should You Still Learn To Code in 2026?</h2>
@@ -180,7 +230,7 @@ Technology is evolving rapidly, but coding remains a valuable skill.
 
     <div class="right-icons">
         <i class="fa-regular fa-message"></i>
-        <i class="fa-regular fa-bookmark"></i>
+       <i class="fa-regular fa-bookmark bookmark"></i>
         <i class="fa-solid fa-ellipsis"></i>
     </div>
 </div>
@@ -195,9 +245,23 @@ Technology is evolving rapidly, but coding remains a valuable skill.
 
 <div class="post-content">
 
-<div class="author">
+<div class="author hover-card-parent">
+
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" class="author-logo">
+
     <span>In Readers Digest by Emily Carter · Mar 12</span>
+
+    <div class="hover-card">
+
+        <h4>Readers Digest</h4>
+
+        <p>Literature, Fiction & Reading Community</p>
+         <p>10K Followers · 300 Stories</p>
+
+        <button class="follow-btn">Follow</button>
+
+    </div>
+
 </div>
 
 <h2>Why Fiction Readers Often Understand People Better</h2>
@@ -215,7 +279,7 @@ How novels help us develop empathy, creativity, and emotional intelligence.
 
     <div class="right-icons">
         <i class="fa-regular fa-message"></i>
-        <i class="fa-regular fa-bookmark"></i>
+        <i class="fa-regular fa-bookmark bookmark"></i>
         <i class="fa-solid fa-ellipsis"></i>
     </div>
 </div>
@@ -231,9 +295,23 @@ How novels help us develop empathy, creativity, and emotional intelligence.
 
 <div class="post-content">
 
-<div class="author">
+<div class="author hover-card-parent">
+
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" class="author-logo">
+
     <span>In Digital Entertainment by Alex Morgan · Jun 8</span>
+
+    <div class="hover-card">
+
+        <h4>Digital Entertainment</h4>
+
+        <p>Movies, Streaming & Entertainment News</p>
+         <p>18K Followers · 220 Stories</p>
+
+        <button class="follow-btn">Follow</button>
+
+    </div>
+
 </div>
 
 <h2>The Streaming Wars: Which Platform Is Worth Your Money?</h2>
@@ -251,7 +329,7 @@ Comparing content, pricing, and features of today's top streaming services.
 
     <div class="right-icons">
         <i class="fa-regular fa-message"></i>
-        <i class="fa-regular fa-bookmark"></i>
+        <i class="fa-regular fa-bookmark bookmark"></i>
         <i class="fa-solid fa-ellipsis"></i>
     </div>
 </div>
@@ -355,6 +433,8 @@ Comparing content, pricing, and features of today's top streaming services.
 </div>
 
 </div>
+<script src="clone.js"></script>  
 
 </body>
+
 </html>
